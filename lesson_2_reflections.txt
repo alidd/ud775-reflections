@@ -9,14 +9,25 @@ What value do you think it offers?
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+  I can "git add" only the files which are part of logical change and than
+  commit them.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+  If I want to have multiple dewelopment lines and simple switch between them.
+  it is also usefull to keep the master branch always working, doing the dev
+  at extra branch. Branches let to switch context / focus working with multiple features.
+  Branches give a name (label) to the last commit of each del-t line.
 
 How do the diagrams help you visualize the branch structure?
+  git log --graph --oneline master coins
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+What is the result of merging two branches together?
+Why do we represent it in the diagram the way we do?
+  Lineare sequence of interleaved commits from both branches sorted by time.
+  In diagram commits are connected by parent-child relationship.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+  It saves time
+  It introduces some risk
