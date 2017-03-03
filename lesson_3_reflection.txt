@@ -26,14 +26,31 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    Speed?
+    Possibility to work offline?
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    by pigeon post
+    Git GUI: https://www.gitkraken.com/
+    using
+    hg and Bitbucket
+    https://gitlab.com
+    https://sourceforge.net/
+    https://allura.apache.org/
+    https://cloud.google.com/source-repositories/
+    commercial:
+      https://aws.amazon.com/codecommit/
+      https://en.wikipedia.org/wiki/FogBugz
+        http://www.fogcreek.com/fogbugz/devhub
+      http://beanstalkapp.com/
+
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When I want to keep master clean of experiments and uncomplete features
+      Benefit - always having working app at master
+    When I want to make pull request
+      Benefit - collaboration: reviews, work with repos I can not commit to
