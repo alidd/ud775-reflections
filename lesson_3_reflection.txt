@@ -53,4 +53,8 @@ master?  What benefits does each approach have?
     When I want to keep master clean of experiments and uncomplete features
       Benefit - always having working app at master
     When I want to make pull request
-      Benefit - collaboration: reviews, work with repos I can not commit to
+      Benefits:
+        collaboration - reviews
+        work with repos I can not commit to
+        continue my work as pull request stays open
+        update my pull request without unterference with my work
